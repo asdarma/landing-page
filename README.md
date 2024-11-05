@@ -8,3 +8,7 @@ So far, I have learned :
 4. Flexbox
 
 Started this journey on early Feb 24 and today is 25 Apr 24
+
+Update on 5 Nov 24
+I left this project since 25 Apr 24 as I have to work on agriculture business for 6 months.
+Now I'm back and ready to continue. Lets go!
