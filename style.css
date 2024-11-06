@@ -2,6 +2,8 @@ html    {
     height: 100%;
 }
 
+/* Section 1 - Header * Signup */
+
 .section1   {
     background-color: #1f2937;
     padding: 0px 90px;
@@ -82,3 +84,31 @@ a   {
     justify-content: center;
 }
 
+/* Section 2 - Some random information */
+
+.section2   {
+    text-align: center;    
+}
+
+img {
+    width: 140px;
+    height: 120px;
+}
+
+.information    {
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.info_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+.info_text  {
+    font-size: 16px;
+    max-width: 140px;
+}
