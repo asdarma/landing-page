@@ -9,18 +9,18 @@ html    {
     color: antiquewhite;
 }
 
-.header-container   {
+.header_container   {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.header-logo    {
+.header_logo    {
     font-size: 20px;
     font-weight: bold;
 }
 
-.header-links    {
+.header_links    {
     font-size: 14px;
 }
 
@@ -35,15 +35,50 @@ a   {
     color: antiquewhite;
 }
 
-.signup-container   {
+.signup_container   {
     padding: 70px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.left_signup    {
+    width: 500px;
+    height: auto;
+}
+
+.left_title {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.left_desc  {
+    font-size: small;
+    color: whitesmoke;
+    padding-bottom: 15px;
+}
+
+.signup {
+    background-color: #eee;
+    color: #888;
+    font-weight: bold;
+    font-size: 15px;
+    height: 35px;
+    width: 100px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px #ddd;
+}
+
+.right_signup   {
+    font-size: small;
+    background-color: grey;
+    width: 450px;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.left-signup    {
-    width: 350px;
-    height: 150px;
-    padding: 20px 20px;
-}
