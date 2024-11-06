@@ -87,7 +87,9 @@ a   {
 /* Section 2 - Some random information */
 
 .section2   {
-    text-align: center;    
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;    
 }
 
 img {
@@ -98,7 +100,6 @@ img {
 .information    {
     font-size: 25px;
     font-weight: bold;
-    padding-top: 60px;
     padding-bottom: 40px;
 }
 
@@ -112,3 +113,27 @@ img {
     font-size: 16px;
     max-width: 140px;
 }
+
+/* Section 3 - Quotes */
+
+.section3   {
+    text-align: center;
+    background-color: #e0dede;
+    padding: 60px 160px;
+}
+
+.quote  {
+    font-size: 26px;
+    font-style: italic;
+    padding-bottom: 30px;
+}
+
+.thor   {
+    font-size: 17px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: end;
+}
+
+/* Section 4 - CTA */
+
