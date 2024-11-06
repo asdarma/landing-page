@@ -137,3 +137,41 @@ img {
 
 /* Section 4 - CTA */
 
+.section4   {
+    padding: 60px 200px;
+}
+
+.cta_container  {
+    background-color: grey;
+    width: 550px;
+    height: 80px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+
+.cta_title  {
+    color: whitesmoke;
+    font-size: large;
+    font-weight: bold;
+}
+
+.cta_text   {
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+.cta_button {
+    background-color: grey;
+    border-color: whitesmoke;
+    border-style: double;
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+    font-size: 14px;
+    font-weight: bold;
+    color: whitesmoke;
+    cursor: pointer;
+}
